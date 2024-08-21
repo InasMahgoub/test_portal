@@ -1,0 +1,324 @@
+
+#wrapwrap.o_portal {
+    background-color: black !important;
+    font-family: "Poppins", sans-serif;
+}
+a {
+       cursor: pointer !important;
+}
+#wrap {
+    /* height: 80%; */
+    margin: auto;
+}
+
+#portal-content {
+    background-color: white;
+    border-radius: 10px;
+}
+
+#custom-content {
+    padding: 15px;
+    color: #273240;
+}
+
+#custom-content .content-header h1{
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+}
+
+#custom-content .content-header p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+#custom-content .employees-select {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#custom-content .employees-select ul {
+    padding: 0;
+    margin: 0;
+}
+
+#custom-content .employees-select ul li{
+    display: inline-block;
+}
+
+#custom-content .employees-select ul li img, .circle-btn{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    margin-right: -10px;
+    object-fit: cover;
+    border: 2px solid #D2DCE8;
+    background-color: white;
+    transition: all ease-in-out 300ms;
+}
+
+#custom-content .employees-select ul li img:hover, .circle-btn:hover{
+    border: 2px solid #32A7E2;
+
+}
+
+#custom-content .employees-select  .circle-btn {
+    margin-left: 20px;
+ }
+
+ #custom-content .expenses-list .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-color: #DEDEDE;
+ }
+
+ #custom-content .expenses-list .header h4{
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+ #custom-content .expenses-list .header button{
+    background: transparent;
+    border: none !important;
+    outline: none !important;
+    color: #D8D8D8;
+    font-weight: bold;
+    font-size: 22px;
+ }
+
+ #custom-content .expenses-list .header button:hover {
+    transition: all ease-in-out 300ms;
+    color: #32A7E2;
+ }
+
+
+  #custom-content .expenses-list .expenses-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+
+ #custom-content .expenses-list .expenses-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 15px 0;
+ }
+
+ #custom-content .expenses-list .expenses-item .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ #custom-content .expenses-list .expenses-item .left h6{
+    font-weight: bold;
+    margin-bottom: 0;
+ }
+
+ #custom-content .expenses-list .expenses-item .left p{
+    font-size: 12px;
+    color: #404852;
+ }
+
+ #custom-content .expenses-list .expenses-item .text {
+    display: flex;
+    align-items: center;
+ }
+
+  #custom-content .expenses-list .expenses-item .text p{
+    margin: 0;
+    color: #404852;
+ }
+
+#custom-content .expenses-list .expenses-item .right {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+ #custom-content .expenses-list .expenses-item .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    color: white;
+    margin-right: 10px;
+ }
+
+
+.o_portal_docs.list-group {
+    background-color: black !important;
+}
+.o_portal_docs.list-group .active{
+    font-weight: bold;
+}
+
+.o_portal_docs.list-group .list-group-item {
+    background-color: transparent !important;
+    color: white;
+    padding-left: 0;
+    cursor: pointer !important;
+}
+
+.o_portal_docs.list-group .list-group-item:hover {
+    font-weight: bold;
+}
+
+.user-info img {
+    height: 72px;
+    width: 72px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.user-info h4 {
+    color: white;
+    font-weight: bold;
+}
+
+.user-info h6 {
+    color: white;
+}
+
+.user-info .avatar {
+    position: relative;
+    height: 72px;
+    width: 72px;
+    margin-bottom: 10px;
+}
+
+.user-info .avatar .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #DC3434;
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#o_my_sidebar {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.side-content {
+    padding: 15px;
+    background-color: #F9FAFC;
+    position: relative;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.side-content h3, .side-content h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.side-content .progress-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-content .progress, .side-content .progress-bar {
+    height: 5px;
+}
+
+.side-content h5{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.side-content p {
+    font-size: 12px;
+    font-weight: normal;
+    color: #404852;
+}
+
+.side-content .call-to-action-tips {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF0F6;
+    padding: 50px 10px 10px;
+    border-radius: 10px;
+    margin-top : 30px;
+}
+.side-content .call-to-action-tips .black-button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    border-color: black;
+    outline: none !important;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: all ease-in-out 700ms;
+}
+
+.side-content .call-to-action-tips .black-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.side-content .call-to-action-tips img {
+    position: absolute;
+    top: -20px;
+}
+
+.side-content .call-to-action-tips img.right {
+    height: 62px;
+    right: 20px;
+    left: auto;
+}
+
+.side-content .call-to-action-tips img.left {
+    width: 72px;
+    left: 20px;
+    right: auto;
+}
+
+/* Color Theme */
+
+.bg_blue {
+    background-color: #32A7E2;
+}
+
+.bg_purple {
+    background-color: #B548C6;
+}
+
+.bg_orange {
+    background-color: #FF8700;
+}
+
+.bg_red {
+    background-color: #DC3434;
+}
+
+.bg_green {
+    background-color: #4BA83D;
+}
+
+
+
+
+
+
